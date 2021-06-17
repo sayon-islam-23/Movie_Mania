@@ -1,0 +1,1327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Movie Mania - Action</title>
+</head>
+
+<body style="background-color: black;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+                style="color:#ffc107; font-weight:bold; border-left:4px solid white; padding-left:10px; border-right:4px solid white; padding-right:10px; border-radius:6px;">Movie
+                Mania</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="border: 3px solid #ffc107; border-radius: 11px;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"
+                            style="color: white; font-weight:bold;">Romantic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="action.html" style="color: white; font-weight:bold;">Action</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comedy.html" style="color: white; font-weight:bold;">Comedy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="horror.html" style="color:white; font-weight:bold;">Horror</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Your Movie" aria-label="Search">
+                    <button class="btn btn-warning" type="submit" style="font-weight: bold;">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src=" action2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src=" action1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src=" action3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Cards 1-->
+    <br>
+    <div class="container">
+        <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+                <h1 class="display-4 fst-italic" style="color: #ffc107;">Recommended Action Movies from Movie Mania
+                </h1>
+                <br>
+                <p class="lead my-3" style="font-size:25px ;">Streaming now....</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- Cards 2 -->
+        <br>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" extraction.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black ;">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">
+                            Extraction, an action thriller starring Chris Hemsworth with Randeep and Rudraksh Jaiswal in
+                            supporting roles. Blood spurts and explosions decimate in a rhythmic two-step of deadly
+                            destruction.
+                        </p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    href="https://youtu.be/L6P3nI6VnlY" target="_blank">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#bheeshmaModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" escape plan.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Escape Plan is the
+                            newest vehicle for aging action stars Sylvester Stallone and Arnold Schwarzenegger and, in
+                            this case, it's a lemon or possibly an Edsel. A man tries to escape a secure prison.</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/etWeYkQ_KLw">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#tallgirlModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" now you see me.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Now You See Me 2
+                            is a 2016 American heist thriller film. It’s an impressively starry cast, but sadly, this
+                            lacks the charm, wit and, yes, magic of the original. Directed by Jon M. Chu</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/4I8rVcSQbic">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#loveModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" kgf.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">K.G.F: Chapter 2
+                            is an upcoming Indian Kannada-language period action film.</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/Qah9sSIXJqk">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#holiModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Unavailable</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" commando.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">In the 3rd edition
+                            of the Commando franchise, Karanveer is back to hunt down a mysterious London-based man who
+                            is planning a massive terror attack.</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/m-JIofHHU6s">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#fiftyModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" john wick.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">John Wick is declared excommunicado and a hefty bounty is set on him after he murders an international crime lord. He sets out to seek help to save himself from ruthless hitmen and bounty hunters.</p>
+                        
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/rBxcF-r9Ibs">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#ginnyModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" fast 8.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Dom encounters a
+                            mysterious woman, Cipher, who gets him involved in the world of terrorism. The crew has to
+                            reunite to stop Cipher and save the man who brought them together as a family.</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/uisBaTkQAEs">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#kabirModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" mission impossible.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">‘Mission:
+                            Impossible – Fallout’ has a great mix of plot, pacing and performances that undeniably makes
+                            it the best entry in the franchise.</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/wb49-oV0F78">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#boysModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" san andreas.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;"> This
+                            adrenaline-pumping movie turns a nightmare into big screen reality as it takes the disaster
+                            film genre to a whole new level.</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/yftHosO0eUo">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#fiveModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" don 2.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;"> Don 2 is a sequel
+                            to a 2006's Indian action thriller 'Don'. Living in Thailand for past five years and having
+                            conquered the Asian underworld, and internationals.</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/_X5w-6PqoZ0">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#rebeccaModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" wanted.jpg" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Wanted is a 2009
+                            Hindi action film starring Salman Khan, Ayesha Takia and Prakash raj. The movie was one of
+                            the highest grossing films of the year 2009.</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/fxm4KcKDQl0">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#jabwemetModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm" style="cursor: pointer;">
+                    <img src=" avengers.PNG" class="d-block w-100" alt="...">
+
+                    <div class="card-body" style="background: black">
+                        <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Avengers: Endgame
+                            ... Every hero, every story, every moment has led us here. ... After the devastating events
+                            of Avengers: Infinity War (2018)</p>
+                        <br>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    target="_blank" href="https://youtu.be/TcMBFSGVi1c">Trailer</a>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#tuneinforloveModal">About</button>
+                                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                                    data-toggle="modal" data-target="#myModal">Review</button>
+                            </div>
+                            <small class="text-muted" style="color: white;">Available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+
+        <div class="container">
+            <h1 style="color: #ffc107;
+    font-size: 40px;
+    font-weight: bold;
+    border-left: 7px solid white;
+    padding-left: 10px;">All Catagories</h1>
+            <h4 style="color: white;">Movie Mania</h4>
+            <br>
+            <br>
+        </div>
+
+        <div class="container">
+            <div class="container my-4">
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                                <h3 class="mb-0" style="color: white;">Romantic</h3>
+                                <br>
+                                <p class="card-text mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">
+                                    romance movies
+                                    are romantic love stories recorded in visual media for broadcast in theaters and on
+                                    TV</p>
+                                <br>
+                                <a href="index.html" class="btn btn-warning"
+                                    style="color: black; font-weight:bold;">Romantic </a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+
+                                <img src="romantic.jpg" alt="img" class="bd-placeholder-img" width="180"
+                                    height="250">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                                <h3 class="mb-0" style="color: white;">Action</h3>
+                                <br>
+                                <p class="mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">A film
+                                    genre in which the
+                                    protagonists are thrust into a series of events that typically include violence,
+                                    fighting.</p>
+                                <br>
+                                <a href="action.html" class="btn btn-warning"
+                                    style="color: black; font-weight:bold;">Action</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src=" action.jpg" alt="img" class="bd-placeholder-img" width="180"
+                                    height="250">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container my-4">
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                                <h3 class="mb-0" style="color: white;">Horror</h3>
+                                <br>
+                                <p class="card-text mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">
+                                    A horror film is
+                                    one that seeks to elicit fear in its audience for entertainment purposes.</p>
+                                <br>
+                                <a href="horror.html" target="_blank" class="btn btn-warning"
+                                    style="color: black; font-weight:bold;">Horror</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+
+                                <img src="Horror.jpg" alt="img" class="bd-placeholder-img" width="180"
+                                    height="250">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                                <h3 class="mb-0" style="color:white;">Comedy</h3>
+                                <br>
+                                <p class="mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">A comedy
+                                    film is a
+                                    category of film in which the main emphasis is on humor.</p>
+                                <br>
+                                <a href="comedy.html" class="btn btn-warning"
+                                    style="color: black; font-weight:bold;">Comedy</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="comedy.jpg" alt="img" class="bd-placeholder-img" width="180"
+                                    height="250">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container marketing">
+            <hr class="featurette-divider">
+            <br>
+            <h1 style="color: #ffc107;
+    font-size: 40px;
+    font-weight: bold;
+    border-left: 7px solid white;
+    padding-left: 10px;"> Fan Favourites</h1>
+            <h3 style="color: white;">Actor & Actress</h3>
+            <br>
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src=" chris.jpg" alt="Chris Helmsworth" class="rounded mx-auto d-block rounded-circle"
+                        width="140" height="140" style="cursor: pointer;">
+                    <h2 style="text-align: center; color: #ffc107;">Chris Helmsworth</h2>
+                    <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">
+                        The Australian actor has his recurring role of Thor to thank for his superstardom--​and sky-high
+                        earnings</p>
+                    <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+                            href="https://en.wikipedia.org/wiki/Chris_Helmsworth" style="font-weight: bold;"
+                            target="_blank">Explore</a>
+                    </p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src=" michelle rodriguez.jpg" alt="Michelle Rodriguez"
+                        class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+                        style="cursor: pointer;">
+
+                    <h2 style="text-align: center; color: #ffc107;">Michelle Rodriguez </h2>
+                    <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">
+                        Michelle Rodriquez's signature roles came in productions whose titles eerily sum up her
+                        Hollywood career.</p>
+                    <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+                            href="https://en.wikipedia.org/wiki/Michelle_Rodriguez" style="font-weight: bold;"
+                            target="_blank">Explore</a>
+                    </p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src=" vidyut.jpg" alt="Vidyut Jamwal" class="rounded mx-auto d-block rounded-circle"
+                        width="140" height="140" style="cursor: pointer;">
+
+                    <h2 style="text-align: center; color: #ffc107;">Vidyut Jamwal</h2>
+                    <p style="text-align:center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">
+                        Vidyut Jammwal who's known to be Bollywood's super-cool action hero and fitness enthusiast</p>
+                    <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+                            style="font-weight: bold;" target="_blank"
+                            href="https://en.wikipedia.org/wiki/Vidyut_Jamwal">Explore</a>
+                    </p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+            <!-- /END THE FEATURETTES -->
+
+        </div>
+
+        <div class="container marketing">
+            <hr class="featurette-divider">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src=" rock.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140"
+                        height="140" style="cursor: pointer;">
+                    <h2 style="text-align: center; color: #ffc107;">Dwayne Johnson</h2>
+                    <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">
+                        Dwayne Douglas Johnson, also known by his ring name The Rock, is an American actor, producer,
+                        retired professional wrestler, </p>
+                    <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+                            href="https://en.wikipedia.org/wiki/Dwayne_Johnson" style="font-weight: bold;"
+                            target="_blank">Explore</a></p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src=" jason statham.jpg" alt="" class="rounded mx-auto d-block rounded-circle"
+                        width="140" height="140" style="cursor: pointer;">
+
+                    <h2 style="text-align: center; color: #ffc107;">Jason Statham</h2>
+                    <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">
+                        Jason Statham is an English actor. Typecast as the antihero, he is known for his action-thriller
+                        roles and portraying tough,</p>
+                    <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+                            href="https://en.wikipedia.org/wiki/Jason_Statham" style="font-weight: bold;"
+                            target="_blank">Explore</a></p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src=" tony.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140"
+                        height="140" style="cursor: pointer;">
+
+                    <h2 style="text-align: center; color: #ffc107;">Tony Stark</h2>
+                    <p style="text-align:center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">
+                        "Tony" Stark was a billionaire industrialist, a founding member of the Avengers, and the former
+                        CEO of Stark Industries</p>
+                    <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+                            href="https://en.wikipedia.org/wiki/Tony_Stark" style="font-weight: bold;"
+                            target="_blank">Explore</a>
+                    </p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+            <!-- /END THE FEATURETTES -->
+
+        </div>
+
+
+    </div>
+
+    <br>
+    <br>
+    <div class="container">
+
+        <h1 style="color: #ffc107;
+    font-size: 40px;
+    font-weight: bold;
+    border-left: 7px solid white;
+    padding-left: 10px;"> Your Wishlist</h1>
+        <h4 style="color: white;">Movies you want</h4>
+        <br>
+        <br>
+        <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+            <h4 style="color:rgb(240, 234, 234); ">Your Name</h4>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"
+                style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+        </div>
+        <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+            <h4 style="color:rgb(240, 234, 234); ">Your Email Address</h4>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Mail Id"
+                style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+        </div>
+        <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+            <h4 style="color:rgb(240, 234, 234); ">Movie Name</h4>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Movie Name"
+                style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+        </div>
+        <div class="mb-3">
+            <h4 style="color:rgb(240, 234, 234); ">About Your Movie</h4>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;"
+                placeholder="Enter Your Review"></textarea>
+        </div>
+        <a type="submit" class="btn btn-warning" style="color: black; font-weight:bold;" href="/">Submit</a>
+        <br>
+        <br>
+    </div>
+
+    <footer class="container">
+        <h6 class="float-end"><a href="#" style="margin-top: 69px; font-weight:bold; font-size:12px;"
+                class="btn btn-outline-warning">Back to top</a></h6>
+        <h6 style="margin-top: 69px; color:white;">© 2017–2021 Movie Mania, Inc.. <a href="#"
+                style="color: #ffc107;">Privacy</a> · <a href="#" style="color: #ffc107;">Terms</a></h6>
+    </footer>
+    <br>
+    <br>
+
+
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Your Review Matters</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+                    <div class="mb-3">
+                        <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+                        <h4 style="color:rgb(240, 234, 234); ">Your Name</h4>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter your name"
+                            style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+                    </div>
+                    <div class="mb-3">
+                        <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+                        <h4 style="color:rgb(240, 234, 234); ">Movie Name</h4>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Movie Name"
+                            style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+                    </div>
+                    <br>
+                    <select class="form-select" aria-label="Default select example" style="width: 80%;
+    background-color: black;
+    border-radius: 16px;
+    border: 4px solid #ffc107;
+    color: white;">
+
+                        <option value="1">⭐⭐⭐⭐⭐</option>
+                        <option value="2">⭐⭐⭐⭐</option>
+                        <option value="3">⭐⭐⭐</option>
+                        <option value="4">⭐⭐</option>
+                        <option value="4">⭐</option>
+                    </select>
+                    <br>
+                    <div class="mb-3">
+                        <h4 style="color:rgb(240, 234, 234); ">Enter Your review</h4>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;"
+                            placeholder="Enter Your Review"></textarea>
+                    </div>
+                    <a type="submit" class="btn btn-warning" style="color: black; font-weight:bold;"
+                        href="index.html">Submit</a>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <!-- review -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- extraction MODAL -->
+
+    <div id="bheeshmaModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Extraction</h3>
+                    <br>
+                    <img src=" extraction.jpg" class="img-fluid" alt="..." style="height:240px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">24 April 2020</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;">Sam Hargrave</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced By : <span style="color: white;">
+                            Joe Russo
+                            Anthony Russo
+                            Mike Larocca</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story By : <span style="color: white;">
+                            Ande Parks
+                            Joe Russo
+                            Anthony Russo</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Budget : <span style="color: white;">65 million US dollars</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;">Chris Hemsworth
+                            Rudhraksh Jaiswal
+                            Randeep Hooda
+                            Golshifteh Farahani
+                            Pankaj Tripathi
+                            David Harbour</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">A black-market mercenary who
+                            has nothing to lose is hired to rescue the kidnapped son of an imprisoned international
+                            crime lord. But in the murky underworld of weapons dealers and drug traffickers, an already
+                            deadly mission approaches the impossible.</span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tall girl MODAL -->
+
+    <div id="tallgirlModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Escape Plan</h3>
+                    <br>
+                    <img src=" escape plan.jpg" class="img-fluid" alt="..." style="height:240px;">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">18 October 2013
+                            (India)</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> Mikael Håfström</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced By : <span style="color: white;">
+                            Mark Canton
+                            Randall Emmett
+                            Remington Chase</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story By : <span style="color: white;"> Miles Chapman.</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Budget : <span style="color: white;">50 million Us dollars</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;">
+                            Sylvester Stallone
+                            Arnold Schwarzenegger
+                            Jim Caviezel</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">Ray, an expert in security
+                            systems, is framed for a crime and sent to a high-tech prison. However, he uses all his
+                            knowledge and special skills with a little inside help to escape the facility..</span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tall girl MODAL -->
+
+    <div id="loveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Now you see me 2</h3>
+                    <br>
+                    <img src=" now you see me.jpg" class="img-fluid" alt="..." style="height:240px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">17 June 2016 (India)</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;">Jon M. Chu</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced By : <span style="color: white;">
+                            Alex Kurtzman
+                            Roberto Orci
+                            Bobby Cohen</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Music By : <span style="color: white;"> Brian Tyler.</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Budget : <span style="color: white;">334.9 million USD</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;">
+                            Jesse Eisenberg
+                            Mark Ruffalo
+                            Woody Harrelson
+                            Dave Franco
+                            Daniel Radcliffe</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">The Four Horsemen, a group
+                            of illusionists, find themselves in Macau, China, planning to pull off a heist on the orders
+                            of a devious tech genius. </span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HoliDate MODAL -->
+
+    <div id="holiModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">KGF chapter 2</h3>
+                    <br>
+                    <img src=" kgf.jpg" class="img-fluid" alt="..." style="height:240px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">16 July 2021 (India) </span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> Prashanth Neel</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced By : <span style="color: white;">Vijay Kiragandur</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Written By : <span style="color: white;"> Prashanth Neel</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Production Company : <span style="color: white;"> Hombale Films</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;"> Yash
+                            Srinidhi Shetty
+                            Ananth Nag
+                            Ramachandra Raju</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">K.G.F: Chapter 2 is an
+                            upcoming Indian Kannada-language period action film written and directed by Prashanth Neel,
+                            and produced by Vijay Kiragandur under the banner Hombale Films. The second installment of
+                            the two-part series, it is a sequel to the 2018 film K.G.F: Chapter 1.</span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span> ??????? </span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fifty MODAL -->
+
+    <div id="fiftyModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Commando 3</h3>
+                    <br>
+                    <img src=" commando.jpg" class="img-fluid" alt="..." style="height:240px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">29 November 2019
+                            (India)</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> Aditya Datt</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Written by : <span style="color: white;">Darius Yarmil
+                            Junaid Wasi‎</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Produced By : <span style="color: white;"> Vipul Shah
+                            Anil Ambani</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Music By : <span style="color: white;">
+                            Mannan Shaah
+                            Vikram Montrose</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;"> Vidyut Jammwal
+                            Adah Sharma
+                            Angira Dhar
+                            Gulshan Devaiah</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">Upon learning of a possible
+                            threat to their country, officers Karan and Bhavana set out on a mission to London to stop a
+                            terrorist attack on India.</span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Ginny MODAL -->
+
+    <div id="ginnyModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">John Wick: Chapter 3 – Parabellum</h3>
+                    <br>
+                    <img src=" john wick.jpg" class="img-fluid" alt="..." style="height:240px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">9 May 2019 (Brooklyn)</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> Chad Stahelski</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Written By : <span style="color: white;"> Derek Kolstad</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced By : <span style="color: white;">
+                            Basil Iwanyk</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Music By : <span style="color: white;">
+                            Tyler Bates
+                            Joel J. Richard</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;">
+
+                            Keanu Reeves
+                            Halle Berry
+                            Laurence Fishburne
+                            Mark Dacascos
+                            Asia Kate Dillon</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">John Wick is declared excommunicado and a hefty bounty is set on him after he murders an international crime lord. He sets out to seek help to save himself from ruthless hitmen and bounty hunters.</span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--kabir MODAL -->
+
+    <div id="kabirModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Fate of the furious (F8)</h3>
+                    <br>
+                    <img src=" fast 8.jpg" class="img-fluid" alt="..." style="height:240px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">12 April 2017 (India)</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> F. Gary Gray</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced By : <span style="color: white;"> Neal H. Moritz, Vin Diesel,
+                            Michael Fottrell‎</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Box Office : <span style="color: white;"> 1.236 billion USD</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Music By : <span style="color: white;"> Brian Tyler</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;">Vin Diesel,
+                            Dwayne Johnson,
+                            Jason Statham,
+                            Michelle Rodriguez,
+                            Tyrese Gibson</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">Dom encounters a mysterious
+                            woman, Cipher, who gets him involved in the world of terrorism. The crew has to reunite to
+                            stop Cipher and save the man who brought them together as a family.</span>
+                    </p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--boys MODAL -->
+
+    <div id="boysModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Mission: Impossible-Fallout</h3>
+                    <br>
+                    <img src=" mission impossible.jpg" class="img-fluid" alt="..." style="height:240px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;"> 27 July 2018 (India)</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> Christopher McQuarrie </span></p>
+                    <br>
+                    <p style="color: #ffc107;">Written By : <span style="color: white;">Christopher McQuarrie. ‎</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Music By : <span style="color: white;"> Lorne Balfe </span></p>
+                    <br>
+                    <p style="color: #ffc107;">Production Companies : <span style="color: white;">
+                            Skydance Media
+                            Bad Robot Productions</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;">
+                            Tom Cruise,
+                            Henry Cavill,
+                            Ving Rhames,
+                            Simon Pegg </span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">A group of terrorists plans
+                            to detonate three plutonium cores for a simultaneous nuclear attack on different cities.
+                            Ethan Hunt, along with his IMF team, sets out to stop the carnage.</span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--five MODAL -->
+
+    <div id="fiveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">San Andreas</h3>
+                    <br>
+                    <img src=" san andreas.jpg" class="img-fluid" alt="..." style="height:240px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">29 May 2015
+                            (worldwide)</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> Brad Peyton </span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced By : <span style="color: white;"> Beau Flynn. ‎</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story By :<span style="color: white;">
+                            Andre Fabrizio,
+                            Jeremy Passmore </span></p>
+                    <br>
+                    <p style="color: #ffc107;">Music By : <span style="color: white;"> Andrew Lockington</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;">
+                            Dwayne Johnson,
+                            Carla Gugino,
+                            Alexandra Daddario,
+                            Ioan Gruffudd</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">Following a massive
+                            earthquake, Ray, a rescue chopper pilot, and his soon to be ex-wife try to find and save
+                            their daughter before another disaster strikes.
+                            .</span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--rebecca MODAL -->
+
+    <div id="rebeccaModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Don 2</h3>
+                    <br>
+                    <img src=" don 2.jpg" class="img-fluid" alt="..." style="height:260px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;"> 23 December 2011
+                            (India)</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> Farhan Akhtar</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Based On : <span style="color: white;"> Characters
+                            by Salim–Javed‎</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced by :<span style="color: white;"> Farhan Akhtar,
+                            Ritesh Sidhwani,
+                            Shah Rukh Khan
+                        </span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Music By : <span style="color: white;">Shankar–Ehsaan–Loy</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;"> Shah Rukh Khan,
+                            Priyanka Chopra,
+                            Lara Dutta,
+                            Kunal Kapoor</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">After dominating the Asian
+                            underworld, Don sets his eyes on the European criminal market. Caught between the Berlin
+                            mafia and law enforcement, Don tries to escape treachery and betrayal. </span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jab we meet -->
+    <div id="jabwemetModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Wanted</h3>
+                    <br>
+                    <img src=" wanted.jpg" class="img-fluid" alt="..." style="height:260px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;">18 September 2009
+                            (India)</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;"> Prabhu Deva</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Cinematography : <span style="color: white;">Nirav Shah</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced by :<span style="color: white;"> Boney Kapoor </span></p>
+                    <br>
+                    <p style="color: #ffc107;">Music By : <span style="color: white;">Sajid–Wajid, Salim-Sulaiman</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;"> Salman Khan,
+                            Ayesha Takia,
+                            Prakash Raj,
+                            Mahesh Manjrekar</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">
+                            A sharpshooter is caught between a gangster who wants him dead since he knows too much, the
+                            police who want him for the information he holds and his girlfriend who yearns for him to
+                            mend his ways. </span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tune in for love -->
+    <div id="tuneinforloveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: black;">
+                    <button type="button" class="close" data-dismiss="modal"
+                        style="background-color: #ffc107;">&times;</button>
+                    <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+                </div>
+                <div class="modal-body" style="background-color: black;">
+
+                    <h3 style="color: #ffc107;">Avengers: Endgame</h3>
+                    <br>
+                    <img src=" avengers.PNG" class="img-fluid" alt="..." style="height:260px">
+                    <br>
+                    <br>
+                    <p style="color: #ffc107; ">Release Date : <span style="color: white;"> 26 April 2019 (India)</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Director : <span style="color: white;">Joe Russo, Anthony Russo</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Box Office : <span style="color: white;">279.75 crores USD</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Produced by :<span style="color: white;"> Kevin Feige </span></p>
+                    <br>
+                    <p style="color: #ffc107;">Based on : <span style="color: white;">
+                            Avengers
+                            by Stan Lee
+                            Jack Kirby</span></p>
+                    <br>
+                    <p style="color: #ffc107;">Main Casting : <span style="color: white;">
+                            Robert Downey Jr.
+                            Chris Evans,
+                            Mark Ruffalo,
+                            Chris Hemsworth,
+                            Scarlett Johansson,
+                            Jeremy Renner,
+                            Don Cheadle,
+                            Paul Rudd,
+                            Brie Larson</span>
+                    </p>
+                    <br>
+                    <p style="color: #ffc107;">Story Overview : <span style="color: white;">After Thanos, an
+                            intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and
+                            assemble again to reinvigorate their trounced allies and restore balance.</span></p>
+                </div>
+                <div class="modal-footer" style="background-color: black; ">
+                    <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐⭐</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+        </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

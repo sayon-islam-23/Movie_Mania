@@ -1,0 +1,1225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <title>Movie Mania-Comedy</title>
+</head>
+
+<body style="background-color: black;">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"
+        style="color:#ffc107; font-weight:bold; border-left:4px solid white; padding-left:10px; border-right:4px solid white; padding-right:10px; border-radius:6px;">Movie
+        Mania</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        style="border: 3px solid #ffc107; border-radius: 11px;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              style="color: white; font-weight:bold;">Romantic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="action.html" style="color: white; font-weight:bold;">Action</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comedy.html" style="color: white; font-weight:bold;">Comedy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="horror.html" style="color:white; font-weight:bold;">Horror</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search Your Movie" aria-label="Search">
+          <button class="btn btn-warning" type="submit" style="font-weight: bold;">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src=" comedy3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" comedy1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" comedy2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Cards 1-->
+  <br>
+  <br>
+  <div class="container">
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic" style="color: #ffc107;">Recommended Comedy Movies from Movie Mania</h1>
+        <br>
+        <p class="lead my-3" style="font-size:25px ;">Streaming now....</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!-- Cards 2 -->
+    <br>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" the dictator.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black ;">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Aladeen, a brutal dictator, travels to US to address the United Nations Security Council,his plans go south when a hitman hired by his uncle, Tamir, kidnaps him. 
+            </p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  href="https://youtu.be/cYplvwBvGA4" target="_blank">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-target="#NunModal" data-toggle="modal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" welcome.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Two thugs meet Rajeev, who belongs to a respectable family, and want to fix their sister's wedding with him. However, when Rajeev's uncle refuses to the match, a series of hilarious situations occur.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://www.vidio.com/watch/1262529-welcome-full-movie-akshay-kumar-katrina-kaif-anil-kapoor-nana-patekar-hd-subtitle-in-indonesian">Full Movie</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#bulbulModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" meet the parents.PNG" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Greg Focker decides to spend a weekend with his girlfriend's parents before proposing to her. However, her father instantly dislikes Greg, which makes his stay far worse than he imagined.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/QQ1KZ3hiAK8">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#runModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" fukrey.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">After getting Bholi Punjaban arrested, life goes smoothly for Hunny, Choocha, Zafar, and Lali. However, their lives turn upside down when she gets an early bail and comes after them for revenge.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/f-UzOpuKOVY">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#armyModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" dolittle.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">A physician, who can speak with animals, is summoned by the queen to find a cure for her life-threatening disease. Soon, he embarks on a journey with his furry friends in search of a healing tree.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/FEf412bSPLs">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#aliveModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" dhamaal.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Four lazy friends named Roy, Manav, Aditya and Boman venture out on a race to find a hidden treasure in Goa. However, everything changes when Inspector Kabir enters their lives.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/CQTv_jVKVHQ">Full Movie</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#annabelleModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" bridesmades.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Annie, a jobless chef, is asked by her best friend, Lillian, to be her maid of honour. Issues evolve when she ruins the wedding events in a rage due to her conflicts with one of the bridesmaids.
+            </p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/FNppLrmdyug">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#ringModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" entertainment.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Akhil, an underdog and a failure, comes to know that his real father is a rich diamond merchant who has just passed away. When he goes to retrieve his wealth, he learns that a dog has inherited it.</p>
+            <br>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/LXXkiUKDK4w">Full Movie</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#mamaModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" moms night out.png" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;"> Allyson decides to spend a night with her best friends. Unfortunately, when their dinner reservations get cancelled, the night does not turn out to be as good as they had foreseen.</p>
+            <br>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/Q2gnLXW7X-0">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#insidiousModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" goodnews.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Two married couples are unsuccessful in conceiving and seek medical treatment. However, they end up in a complicated situation after their doctor makes a blunder.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/r9VJpqoAr84">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#possessionModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" dont think twice.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Turmoil strikes a New York improv troupe when one member leaves to star in a television show and the others realise they might not make it big after all.</p>
+            <br>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/9RFTpObS95U">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#hushModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" de dana dan.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Two penniless friends are in desperate need of money in order to marry their respective girlfriends. In their attempts to make quick money, they kidnap a rich woman's pet and demand a hefty ransom.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/brBQfMmHGqQ">Full Movie</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#deathModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <div class="container">
+      <h1 style="color: #ffc107;
+      font-size: 40px;
+      font-weight: bold;
+      border-left: 7px solid white;
+      padding-left: 10px;">All Catagories</h1>
+      <h4 style="color: white;">Movie Mania</h4>
+      <br>
+      <br>
+    </div>
+
+    <div class="container">
+      <div class="container my-4">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                <h3 class="mb-0" style="color: white;">Romantic</h3>
+                <br>
+                <p class="card-text mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">romance movies
+                  are romantic love stories recorded in visual media for broadcast in theaters and on TV</p>
+                <br>
+                <a href="index.html" class="btn btn-warning" style="color: black; font-weight:bold;">Romantic </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+
+                <img src="romantic.jpg" alt="img" class="bd-placeholder-img" width="180" height="250">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                <h3 class="mb-0" style="color: white;">Action</h3>
+                <br>
+                <p class="mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">A film genre in which the
+                  protagonists are thrust into a series of events that typically include violence,
+                  fighting.</p>
+                <br>
+                <a href="action.html" class="btn btn-warning" style="color: black; font-weight:bold;">Action</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="action.jpg" alt="img" class="bd-placeholder-img" width="180" height="250">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                <h3 class="mb-0" style="color: white;">Horror</h3>
+                <br>
+                <p class="card-text mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">A horror film is
+                  one that seeks to elicit fear in its audience for entertainment purposes.</p>
+                <br>
+                <a href="horror.html" class="btn btn-warning" style="color: black; font-weight:bold;">Horror</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+
+                <img src="Horror.jpg" alt="img" class="bd-placeholder-img" width="180" height="250">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                <h3 class="mb-0" style="color:white;">Comedy</h3>
+                <br>
+                <p class="mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">A comedy film is a
+                  category of film in which the main emphasis is on humor.</p>
+                <br>
+                <a href="comedy.html" class="btn btn-warning" style="color: black; font-weight:bold;">Comedy</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src=" comedy.jpg" alt="img" class="bd-placeholder-img" width="180" height="250">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container marketing">
+      <hr class="featurette-divider">
+      <br>
+      <h1 style="color: #ffc107;
+      font-size: 40px;
+      font-weight: bold;
+      border-left: 7px solid white;
+      padding-left: 10px;"> Fan Favourites</h1>
+      <h3 style="color: white;">Actor & Actress</h3>
+      <br>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src=" akshay.jpg" alt="shah rukh khan" class="rounded mx-auto d-block rounded-circle" width="140"
+            height="140" style="cursor: pointer;">
+          <h2 style="text-align: center; color: #ffc107;">Akshay Kumar</h2>
+          <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">Rajiv Hari Om Bhatia, known professionally as Akshay Kumar is an Indian-born naturalised Canadian actor, producer, martial artist</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Akshay_Kumar" style="font-weight: bold;" target="_blank">Explore</a>
+          </p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src=" megan.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+
+          <h2 style="text-align: center; color: #ffc107;">Megan Fox</h2>
+          <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">Megan Denise Fox is an American actress and model. She is considered a sex symbol, and is recognized for her public image and looks</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Megan_Fox" style="font-weight: bold;" target="_blank">Explore</a>
+          </p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src=" paresh rawal.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+
+          <h2 style="text-align: center; color: #ffc107;">Paresh Rawal</h2>
+          <p style="text-align:center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">Paresh Rawal is an Indian actor, comedian, film producer and politician known for his works notably in Hindi and few Telugu films..</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              style="font-weight: bold;" target="_blank" href="https://en.wikipedia.org/wiki/Paresh_Rawal">Explore</a>
+          </p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+      <!-- /END THE FEATURETTES -->
+
+    </div>
+
+    <div class="container marketing">
+      <hr class="featurette-divider">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src=" nawaz.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+          <h2 style="text-align: center; color: #ffc107;">Nawazuddin Siddiqui</h2>
+          <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">Nawazuddin Siddiqui is an Indian actor known for his work in Hindi cinema. He is an alumnus of the National School of Drama.</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Nawazuddin_Siddiqui" style="font-weight: bold;" target="_blank">Explore</a>
+          </p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src=" will smith.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+
+          <h2 style="text-align: center; color: #ffc107;">Will Smith</h2>
+          <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">Willard Carroll Smith Jr. is an American actor, rapper, and film producer. Smith has been nominated for five Golden Globe Awards and two Academy Awards,</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Will_Smith" style="font-weight: bold;"
+              target="_blank">Explore</a></p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src=" katrina.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+
+          <h2 style="text-align: center; color: #ffc107;">Katrina Kaif</h2>
+          <p style="text-align:center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">Katrina Kaif is a British actress who primarily works in Hindi-language films. She is one of the India's highest-paid actresses</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Katrina_Kaif" style="font-weight: bold;" target="_blank">Explore</a>
+          </p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+      <!-- /END THE FEATURETTES -->
+
+    </div>
+
+
+  </div>
+
+  <br>
+  <br>
+  <div class="container">
+
+    <h1 style="color: #ffc107;
+      font-size: 40px;
+      font-weight: bold;
+      border-left: 7px solid white;
+      padding-left: 10px;"> Your Wishlist</h1>
+    <h4 style="color: white;">Movies you want</h4>
+    <br>
+    <br>
+    <div class="mb-3">
+      <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+      <h4 style="color:rgb(240, 234, 234); ">Your Name</h4>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"
+        style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+    </div>
+    <div class="mb-3">
+      <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+      <h4 style="color:rgb(240, 234, 234); ">Your Email Address</h4>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Mail Id"
+        style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+    </div>
+    <div class="mb-3">
+      <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+      <h4 style="color:rgb(240, 234, 234); ">Movie Name</h4>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Movie Name"
+        style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+    </div>
+    <div class="mb-3">
+      <h4 style="color:rgb(240, 234, 234); ">About Your Movie</h4>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+        style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;"
+        placeholder="Enter Your Review"></textarea>
+    </div>
+    <a type="submit" class="btn btn-warning" style="color: black; font-weight:bold;" href="/">Submit</a>
+    <br>
+    <br>
+  </div>
+
+  <footer class="container">
+    <h6 class="float-end"><a href="#" style="margin-top: 69px; font-weight:bold; font-size:12px;"
+        class="btn btn-outline-warning">Back to top</a></h6>
+    <h6 style="margin-top: 69px; color:white;">© 2017–2021 Movie Mania, Inc.. <a href="#"
+        style="color: #ffc107;">Privacy</a> · <a href="#" style="color: #ffc107;">Terms</a></h6>
+  </footer>
+  <br>
+  <br>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Your Review Matters</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+          <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+            <h4 style="color:rgb(240, 234, 234); ">Your Name</h4>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"
+              style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+          </div>
+          <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+            <h4 style="color:rgb(240, 234, 234); ">Movie Name</h4>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Movie Name"
+              style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+          </div>
+          <br>
+          <select class="form-select" aria-label="Default select example" style="width: 80%;
+        background-color: black;
+        border-radius: 16px;
+        border: 4px solid #ffc107;
+        color: white;">
+
+            <option value="1">⭐⭐⭐⭐⭐</option>
+            <option value="2">⭐⭐⭐⭐</option>
+            <option value="3">⭐⭐⭐</option>
+            <option value="4">⭐⭐</option>
+            <option value="4">⭐</option>
+          </select>
+          <br>
+          <div class="mb-3">
+            <h4 style="color:rgb(240, 234, 234); ">Enter Your review</h4>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+              style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;"
+              placeholder="Enter Your Review"></textarea>
+          </div>
+          <a type="submit" class="btn btn-warning" style="color: black; font-weight:bold;" href="horror.html">Submit</a>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <!-- review -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- NUN MODAL -->
+
+  <div id="NunModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">The Dictator</h3>
+          <br>
+          <img src=" the dictator.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">16 May 2012</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;">	Larry Charles</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;">Sacha Baron Coh, Alec Berg, David Mandel</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;">Sacha Baron Cohen, Alec Berg, Anthony Hines</span></p>
+          <br>
+          <p style="color: #ffc107;">Box Office : <span style="color: white;">179.8 million USD</span></p>
+          <br>
+          <div style="color: #ffc107;">Main Casting : <span style="color: white;">Sacha Baron Cohen, Anna Faris, Ben Kingsley </span></div>p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">"The Dictator" is a guilty pleasure, full of jokes that cue both laughter and a small helping of shame. Sacha Baron Cohen’s newest creation, Admiral General Aladeen, is the star of the new comedy The Dictator. </span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐ </span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BULBUL MODAL -->
+
+  <div id="bulbulModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Welcome</h3>
+          <br>
+          <img src=" welcome.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;"> 21 December 2007 (India)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;">Anees Bazmee</span></p>
+          <br>
+          <p style="color: #ffc107;">Written By : <span style="color: white;">Anees Bazmee, Rajiv Kaul, Praful Parekh</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;">	Firoz Nadiadwala</span>
+          </p>
+          <br>
+          <p style="color: #ffc107;">Music By : <span style="color: white;"> Sajid–Wajid, Anand Raj Anand,
+            Himesh Reshammiya</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;"> 	
+            Feroz Khan
+            Anil Kapoor
+            Nana Patekar
+            Akshay Kumar
+            Katrina Kaif
+            Paresh Rawal
+            Mallika Sherawat</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;"> One of the best comedy movie . Everybody's acting was really good. Dialogues were too funny. homour factor was  actually there.
+            All the cast has done a very good job.
+            It's a pure comedy and noting to be taken seriously.
+            Akshay sir you are best . 
+            Nice work by Katrina Kaif. This movie always makes me stress free n makes me laugh too hard..must watch movie..one can not miss it. </span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐⭐</span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RUN MODAL -->
+
+  <div id="runModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Meet The Parents </h3>
+          <br>
+          <img src=" meet the parents.PNG" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">26 January 2001</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Jay Roach</span></p>
+          <br>
+          <p style="color: #ffc107;">Written by : <span style="color: white;"> Greg Glienna, Mary Ruth Clarke</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> 	
+            Nancy Tenenbaum
+            Jay Roach
+            Jane Rosenthal
+            Robert De Niro</span></p>
+          <br>
+          <p style="color: #ffc107;">Box Office : <span style="color: white;">330.4 million USD </span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Robert De Niro
+            Ben Stiller
+            Blythe Danner
+            Teri Polo
+            James Rebhorn</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;"> This comedy movie is truly one for the ages!  The combination of Ben Stiller and Robert De Niro is superbly paired!  I never tire of watching it and when I feel like viewing an uplifting comedy I just play it on my Blu Ray player.  For any naysayers who do not enjoy this movie they are missing the underlying comedic element which is the foundation.  It is humorous throughout its scope!  Brilliant writing of the script!.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Army MODAL -->
+
+  <div id="armyModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Fukrey Returns</h3>
+          <br>
+          <img src=" fukrey.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">8 December 2017 (India)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Mrigdeep Singh Lamba</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;">Vipul Vig </span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Farhan Akhtar</span></p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">103 crore</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">	Pulkit Samrat
+            Manjot Singh
+            Ali Fazal
+            Varun Sharma </span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">After the time period of 4 years   the director Mrighdeep Singh Lamba finally came up with a very good and funny movie 'Fukrey Returns'. It is absolutely funny from last part. All the crazy charters are now back to entertain you.
+
+            Lali is now out of prison ( who in Fukrey was taken to prison because of her business of drugs). She wants more cash now from the gang of 4, to pay her debt and to repay the scheme which she accepted given by Politician Bhatia who secured her early release.This scheme also given rise to a new villan .</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐ </span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #Alive MODAL -->
+
+  <div id="aliveModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Dolittle</h3>
+          <br>
+          <img src=" dolittle.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">	
+            January 17, 2020 (United States)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;">	Stephen Gaghan</span></p>
+          <br>
+          <p style="color: #ffc107;">Cinematography : <span style="color: white;">	Guillermo Navarro
+            </span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> 	
+            Joe Roth
+            Jeff Kirschenbaum
+            Susan Downey</span></p>
+          <br>
+          <p style="color: #ffc107;">Based On : <span style="color: white;"> 	
+            Doctor Dolittle
+            by
+            Hugh Lofting</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">	
+            Robert Downey Jr.
+            Antonio Banderas
+            Michael Sheen
+            Harry Collett
+            Emma Thompson</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">Stephan Gagan directs this 2020 exotic adventure that features a star-studded cast and whimsical score. This latest adaptation of Hugh Lofting's novel is the sequel we didn't need but got anyway.
+
+            Robert Downey Jr stars as the titular Dr Dolittle, who, after suffering a tragic loss, closes the doors to his animal sanctuary and becomes a lonely recluse. However, when Queen Victoria (Jessie Buckley) falls gravely ill, he is recruited by Lady Rose (Carmel Laniado) to embark on an epic adventure to save her.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐ </span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Annabelle MODAL -->
+
+  <div id="annabelleModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Dhamaal</h3>
+          <br>
+          <img src=" dhamaal.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">7 September 2007 (India)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;">  Indra Kumar</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;"> Paritosh Painter</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> 	Indra Kumar
+            Ashok Thakeria</span></p>
+          <br>
+          <p style="color: #ffc107;">Box Office : <span style="color: white;"> 50.73 crore</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">	Sanjay Dutt
+            Ritesh Deshmukh
+            Arshad Warsi
+            Aashish Chaudhary
+            Javed Jaffrey</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">All time Blockbuster!!  No.1 comedy, Amazing, spectacular!! I have ever watched this !! Arshad warsi,& all 3 other actors  are of equal Value!! Dhamaal is incomplete without anyone of them! 
+            Sanjay Saab Act like Glue!! As always At his Best!! All other supporting actor done fine job!   Bring life to each scene!! 
+            I literally cry during laughing!!</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐ </span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Ring MODAL -->
+
+  <div id="ringModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Bridesmaids</h3>
+          <br>
+          <img src=" bridesmades.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">28 April 2011 </span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Paul Feig</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;">Annie Mumolo </span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;">Judd Apatow; Barry Mendel; Clayton Townsend</span></p>
+          <br>
+          <p style="color: #ffc107;">Box Office : <span style="color: white;"> 28.84 crores USD</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;"> 	
+            Kristen Wiig
+            Maya Rudolph
+            Rose Byrne
+            Wendi McLendon-Covey</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">Marriage tends to lead to disaster, but this downward spiral starts before it happens. When her best friend is getting married, Annie tries to make the day special in any way she can. But, that's hard with multiple bridesmaids and her own life is a mess. Multiple incidents occur and it seems like the wedding may be ruined if something isn't done. This film touches in places we never expected to be touched. It's not a romance movie, but a movie about growing up and moving on.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mama MODAL -->
+
+  <div id="mamaModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Entertainment</h3>
+          <br>
+          <img src="mama.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;"> 8 August 2014 (India)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Farhad Samji, Sajid</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;"> K. Subhash</span>
+          </p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> 	Ramesh S. Taurani‎</span></p>
+          <br>
+          <p style="color: #ffc107;">Music By : <span style="color: white;">Sachin - Jigar, Sachin - Jigar</span>
+          </p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">	Akshay Kumar
+            Tamannaah
+            Mithun Chakraborty
+            Johnny Lever</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">Lovely message. This movie shows a human's greed for money. He can even kill a poor, sweet and innocent animal. Sonu Sood, Prakash Raj and Akshay Kumar portrayed the character of the true human. All actors acted very well. Not only Entertainment (The dog) other animals can also risk their lifes to save their owner. Loved the storyline and especially the ending, when Akshay's true love bought the dog back to life. Emotional and funny movie. Great work</span>
+          </p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Insidious Chapter 3 MODAL -->
+
+  <div id="insidiousModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Moms Night Out</h3>
+          <br>
+          <img src=" moms night out.png" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">9 May 2014 (USA)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Andrew Erwin, Jon Erwin</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;">	Jon Erwin,
+            Andrea Gyertson Nasfell</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> 	
+            Kevin Downes
+            Andrew Erwin
+            Jon Erwin‎</span>
+          </p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">$11 Million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">	
+            Sarah Drew
+            Sean Astin
+            Patricia Heaton
+            David Hunt</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">It's a fun movie that leaves you with an elevated spirit. I could relate with the characters, the story flows easy and it's believable. I really enjoyed it. Enough to watch again. I Hope all people could see it, specially parents.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Possession MODAL -->
+
+  <div id="possessionModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Good Newwz</h3>
+          <br>
+          <img src=" goodnews.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">27 December 2019 (India)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Raj Mehta, Baljeet Singh Marwah</span></p>
+          <br>
+          <p style="color: #ffc107;">Music By : <span style="color: white;">Jhon Stewart Eduri</span></p>
+          <br>
+          <p style="color: #ffc107;">Written By : <span style="color: white;">	Jyoti Kapoor
+          ,  Rishabh Sharma
+          ,  Raj Mehta</span></p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">$49.1 Million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">	
+            Akshay Kumar
+            Kareena Kapoor Khan
+            Diljit Dosanjh
+            Kiara Advani</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">GOOD NEWWZ:
+
+            Two married, childless couple's attempt to go with, In Vitro Fertilization (IVF) option to produce a baby goes terribly wrong when both the husband's sperm gets exchanged.  By now your imagination might allow you to guess that it is an ideal storyline for a Romantic Sex Comedy. Isn't it? 
+            </span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hush MODAL -->
+
+  <div id="hushModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Don't Think Twice</h3>
+          <br>
+          <img src=" dont think twice.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">22 July 2016 (USA)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;">Mike Birbiglia</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Mike Birbiglia, Ira Glass, Amanda Marshall, Miranda Bailey</span></p>
+          <br>
+          <p style="color: #ffc107;">Written By : <span style="color: white;">  Mike Birbiglia</span></p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">24 lakhs USD</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Mike Birbiglia, Keegan‑Michael Key, Gillian Jacobs, Kate Micucci </span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">Turmoil strikes a New York improv troupe when one member leaves to star in a television show and the others realise they might not make it big after all.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Death  note MODAL -->
+
+  <div id="deathModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">De Dana Dan</h3>
+          <br>
+          <img src=" de dana dan.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;"> 27 November 2009 (India)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Priyadarshan</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Ganesh Jain, Girish Jain, Ratan Jain, Champak Jain</span></p>
+          <br>
+          <p style="color: #ffc107;">Music By : <span style="color: white;">Pritam
+            Rhythm Dhol Bass
+            AD Boyz</span></p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">815 million USD</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">	
+            Akshay Kumar
+            Sunil Shetty
+            Katrina Kaif
+            Paresh Rawal</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">Hilarious, Newton's law applies, 'for every action, there is an equal and opposite reaction'. You will be entertained every minute, if you want to laugh then watch this. Great songs, wonderful pairings, I mean #akkikat is in it...I've watched the interviews of this movie and Katrina said Akki has better chemistry with Sunil, hmm, true. Great buddy comedy.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

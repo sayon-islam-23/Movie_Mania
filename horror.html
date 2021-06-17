@@ -1,0 +1,1229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <title>Movie Mania-Horror</title>
+</head>
+
+<body style="background-color: black;">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"
+        style="color:#ffc107; font-weight:bold; border-left:4px solid white; padding-left:10px; border-right:4px solid white; padding-right:10px; border-radius:6px;">Movie
+        Mania</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        style="border: 3px solid #ffc107; border-radius: 11px;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              style="color: white; font-weight:bold;">Romantic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="action.html" style="color: white; font-weight:bold;">Action</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comedy.html" style="color: white; font-weight:bold;">Comedy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="horror.html" style="color:white; font-weight:bold;">Horror</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search Your Movie" aria-label="Search">
+          <button class="btn btn-warning" type="submit" style="font-weight: bold;">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src=" horror3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" horror4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" horror2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Cards 1-->
+  <br>
+  <br>
+  <div class="container">
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic" style="color: #ffc107;">Recommended Horror Movies from Movie Mania</h1>
+        <br>
+        <p class="lead my-3" style="font-size:25px ;">Streaming now....</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!-- Cards 2 -->
+    <br>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" nun.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black ;">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">The Nun (2018) ... A priest
+              with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to investigate
+              the death of a young nun</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  href="https://youtu.be/zwAM5UnGd2s" target="_blank">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-target="#NunModal" data-toggle="modal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" bulbul.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Anvita Dutt's striking debut
+              feature is set in the late 19th century Bengal. It uses the supernatural horror genre to tell the story of
+              a wide-eyed child .</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/4MGReT9-cAg">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#bulbulModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" run.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">The film stars Kiera Allen as
+              a homeschooled teenager who begins to suspect her mother (Sarah Paulson) is keeping a dark secret from
+              her.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/0Dhh7q9Us5c">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#runModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" army of the dead.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">After a zombie outbreak in Las
+              Vegas, a group of mercenaries takes the ultimate gamble by venturing into the quarantine zone for the
+              greatest heist ever.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/tI1JGPhYBS8">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#armyModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" alive.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">The rapid spread of an unknown
+              infection has left an entire city in ungovernable chaos, but one survivor remains alive in isolation.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/jQ8CCg1tOqc">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#aliveModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" annabelle.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Annabelle is an allegedly
+              haunted Raggedy Ann doll, housed in the occult museum of the paranormal investigators Ed and Lorraine
+              Warren.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/EMa-KFfatT0">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#annabelleModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" ring.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">A journalist must investigate
+              a mysterious videotape which seems to cause the death of anyone one week to the day after they view it.
+            </p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/yzR2GY-ew8I">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#ringModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" mama.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">Directed by Andy Muschietti.
+              With Jessica Chastain, Nikolaj Coster-Waldau, Megan Charpentier, Isabelle Nélisse. After a young couple
+              take in their two nieces,</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/R2nwknMmvdc">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#mamaModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" insidious.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;"> A prequel set before the
+              haunting of the Lambert family that reveals how gifted psychic Elise Rainier reluctantly agrees to use
+              her.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/3HxEXnVSr1w">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#insidiousModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" possession.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;"> Possession is a film that is
+              like it's title, taken with it's own sense of grandeur, starting off as a Scenes-from-a-Marriage-esque
+              tale of downfall.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/Sxo3Wib31uE">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#possessionModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" hush.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">A deaf and mute writer who
+              retreated into the woods to live a solitary life must fight for her life in silence when a masked killer
+              appears at her window.</p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/Q_P8WCbhC6s">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#hushModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="cursor: pointer;">
+          <img src=" it chapter two.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body" style="background: black">
+            <p class="card-text" style="color: white; font-family: 'Roboto', sans-serif;">It Chapter Two is a 2019
+              American supernatural horror film and a sequel/second half to the 2017 film It, both based on the 1986
+              novel by Stephen King. </p>
+            <br>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a type="button" class="btn btn-warning " style="color: black; font-weight:bold;" target="_blank"
+                  href="https://youtu.be/xhJ5P7Up3jA">Trailer</a>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#deathModal">About</button>
+                <button type="button" class="btn btn-warning " style="color: black; font-weight:bold;"
+                  data-toggle="modal" data-target="#myModal">Review</button>
+              </div>
+              <small class="text-muted" style="color: white;">Available</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <div class="container">
+      <h1 style="color: #ffc107;
+      font-size: 40px;
+      font-weight: bold;
+      border-left: 7px solid white;
+      padding-left: 10px;">All Catagories</h1>
+      <h4 style="color: white;">Movie Mania</h4>
+      <br>
+      <br>
+    </div>
+
+    <div class="container">
+      <div class="container my-4">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                <h3 class="mb-0" style="color: white;">Romantic</h3>
+                <br>
+                <p class="card-text mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">romance movies
+                  are romantic love stories recorded in visual media for broadcast in theaters and on TV</p>
+                <br>
+                <a href="index.html" class="btn btn-warning" style="color: black; font-weight:bold;">Romantic </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+
+                <img src="romantic.jpg" alt="img" class="bd-placeholder-img" width="180" height="250">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                <h3 class="mb-0" style="color: white;">Action</h3>
+                <br>
+                <p class="mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">A film genre in which the
+                  protagonists are thrust into a series of events that typically include violence,
+                  fighting.</p>
+                <br>
+                <a href="action.html" class="btn btn-warning" style="color: black; font-weight:bold;">Action</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="action.jpg" alt="img" class="bd-placeholder-img" width="180" height="250">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                <h3 class="mb-0" style="color: white;">Horror</h3>
+                <br>
+                <p class="card-text mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">A horror film is
+                  one that seeks to elicit fear in its audience for entertainment purposes.</p>
+                <br>
+                <a href="horror.html" class="btn btn-warning" style="color: black; font-weight:bold;">Horror</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+
+                <img src=" Horror.jpg" alt="img" class="bd-placeholder-img" width="180" height="250">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-warning">Movie Mania</strong>
+                <h3 class="mb-0" style="color:white;">Comedy</h3>
+                <br>
+                <p class="mb-auto" style="color: #ffc107; font-family: 'Roboto', sans-serif;">A comedy film is a
+                  category of film in which the main emphasis is on humor.</p>
+                <br>
+                <a href="comedy.html" class="btn btn-warning" style="color: black; font-weight:bold;">Comedy</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="comedy.jpg" alt="img" class="bd-placeholder-img" width="180" height="250">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container marketing">
+      <hr class="featurette-divider">
+      <br>
+      <h1 style="color: #ffc107;
+      font-size: 40px;
+      font-weight: bold;
+      border-left: 7px solid white;
+      padding-left: 10px;"> Fan Favourites</h1>
+      <h3 style="color: white;">Actor & Actress</h3>
+      <br>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src=" vin diesel.jpg" alt="shah rukh khan" class="rounded mx-auto d-block rounded-circle" width="140"
+            height="140" style="cursor: pointer;">
+          <h2 style="text-align: center; color: #ffc107;">Vin Diesel</h2>
+          <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">known
+            professionally as Vin Diesel, is an American actor and filmmaker. One of the world's highest-grossing
+            actors,</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Vin_Diesel" style="font-weight: bold;" target="_blank">Explore</a>
+          </p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src=" jennifer.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+
+          <h2 style="text-align: center; color: #ffc107;">Jennifer Lopez</h2>
+          <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">Jennifer Lynn
+            Lopez (born July 24, 1969), also known by her nickname J.Lo, is an American singer, actress and dancer.</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Jennifer_Lopez" style="font-weight: bold;" target="_blank">Explore</a>
+          </p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src=" brad pitt.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+
+          <h2 style="text-align: center; color: #ffc107;">Brad Pitt</h2>
+          <p style="text-align:center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">William Bradley
+            Pitt (born December 18, 1963) is a famous American actor and film producer.</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              style="font-weight: bold;" target="_blank" href="https://en.wikipedia.org/wiki/Brad_Pitt">Explore</a>
+          </p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+      <!-- /END THE FEATURETTES -->
+
+    </div>
+
+    <div class="container marketing">
+      <hr class="featurette-divider">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src=" hrittik.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+          <h2 style="text-align: center; color: #ffc107;">Hrithik Roshan</h2>
+          <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">an Indian
+            actor who works in Hindi films. He has portrayed a variety of characters and is known for his dancing
+            skills.</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Hrithik_Roshan" style="font-weight: bold;" target="_blank">Explore</a>
+          </p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src=" priyanka.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+
+          <h2 style="text-align: center; color: #ffc107;">Priyanka Chopra</h2>
+          <p style="text-align: center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">an Indian
+            actress, singer, and film producer. The winner of the Miss World 2000 pageant, Chopra is one of India's
+            highest-paid and most popular entertainers.</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Priyanka_Chopra" style="font-weight: bold;"
+              target="_blank">Explore</a></p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src=" allu arjun.jpg" alt="" class="rounded mx-auto d-block rounded-circle" width="140" height="140"
+            style="cursor: pointer;">
+
+          <h2 style="text-align: center; color: #ffc107;">Allu Arjun</h2>
+          <p style="text-align:center; color:white; font-size: 13px; font-family: 'Roboto', sans-serif;">an Indian actor
+            who primarily works in Telugu cinema. Known for his dancing abilities</p>
+          <p style="text-align: center; margin-bottom: 33px;"><a class="btn btn-warning text-center"
+              href="https://en.wikipedia.org/wiki/Allu_Arjun" style="font-weight: bold;" target="_blank">Explore</a>
+          </p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+      <!-- /END THE FEATURETTES -->
+
+    </div>
+
+
+  </div>
+
+  <br>
+  <br>
+  <div class="container">
+
+    <h1 style="color: #ffc107;
+      font-size: 40px;
+      font-weight: bold;
+      border-left: 7px solid white;
+      padding-left: 10px;"> Your Wishlist</h1>
+    <h4 style="color: white;">Movies you want</h4>
+    <br>
+    <br>
+    <div class="mb-3">
+      <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+      <h4 style="color:rgb(240, 234, 234); ">Your Name</h4>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"
+        style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+    </div>
+    <div class="mb-3">
+      <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+      <h4 style="color:rgb(240, 234, 234); ">Your Email Address</h4>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Mail Id"
+        style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+    </div>
+    <div class="mb-3">
+      <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+      <h4 style="color:rgb(240, 234, 234); ">Movie Name</h4>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Movie Name"
+        style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+    </div>
+    <div class="mb-3">
+      <h4 style="color:rgb(240, 234, 234); ">About Your Movie</h4>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+        style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;"
+        placeholder="Enter Your Review"></textarea>
+    </div>
+    <a type="submit" class="btn btn-warning" style="color: black; font-weight:bold;" href="/">Submit</a>
+    <br>
+    <br>
+  </div>
+
+  <footer class="container">
+    <h6 class="float-end"><a href="#" style="margin-top: 69px; font-weight:bold; font-size:12px;"
+        class="btn btn-outline-warning">Back to top</a></h6>
+    <h6 style="margin-top: 69px; color:white;">© 2017–2021 Movie Mania, Inc.. <a href="#"
+        style="color: #ffc107;">Privacy</a> · <a href="#" style="color: #ffc107;">Terms</a></h6>
+  </footer>
+  <br>
+  <br>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Your Review Matters</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+          <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+            <h4 style="color:rgb(240, 234, 234); ">Your Name</h4>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"
+              style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+          </div>
+          <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+            <h4 style="color:rgb(240, 234, 234); ">Movie Name</h4>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Movie Name"
+              style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;">
+          </div>
+          <br>
+          <select class="form-select" aria-label="Default select example" style="width: 80%;
+        background-color: black;
+        border-radius: 16px;
+        border: 4px solid #ffc107;
+        color: white;">
+
+            <option value="1">⭐⭐⭐⭐⭐</option>
+            <option value="2">⭐⭐⭐⭐</option>
+            <option value="3">⭐⭐⭐</option>
+            <option value="4">⭐⭐</option>
+            <option value="4">⭐</option>
+          </select>
+          <br>
+          <div class="mb-3">
+            <h4 style="color:rgb(240, 234, 234); ">Enter Your review</h4>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+              style="width: 80%; background-color: black; border-radius :16px; border:4px solid #ffc107; color:white;"
+              placeholder="Enter Your Review"></textarea>
+          </div>
+          <a type="submit" class="btn btn-warning" style="color: black; font-weight:bold;" href="horror.html">Submit</a>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <!-- review -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- NUN MODAL -->
+
+  <div id="NunModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">The Nun</h3>
+          <br>
+          <img src=" nun.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">7 September 2018 (India)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Corin Hardy</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;"> James Wan; Gary Dauberman</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Peter Safron</span></p>
+          <br>
+          <p style="color: #ffc107;">Box Office : <span style="color: white;"> 365.69 million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;"> Taissa Farmiga, Bonnie Aarons, Demián
+              Bichir, Jonas Bloquet etc.</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">When a young nun at a cloistered abbey
+              in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final
+              vows are sent by the Vatican to investigate. Together, they uncover the order's unholy secret. Risking not
+              only their lives but their faith and their very souls, they confront a malevolent force in the form of a
+              demonic nun </span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐ </span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BULBUL MODAL -->
+
+  <div id="bulbulModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Bulbul </h3>
+          <br>
+          <img src=" bulbul.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">24 June 2020</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Anvita Dutt Guptan</span></p>
+          <br>
+          <p style="color: #ffc107;">Written By : <span style="color: white;"> Anvita Dutt</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;">Anushka Sharma; Karnesh Ssharma</span>
+          </p>
+          <br>
+          <p style="color: #ffc107;">Music By : <span style="color: white;"> Amit Trivedi</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;"> Tripti Dimri, Paoli Dam, Rahul Bose,
+              Avinash Tiwary</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;"> Bulbbul, a child bride, grows into an
+              enigmatic woman ruling over her household, hiding her painful past, as supernatural murders of men plague
+              her village. A gripping dark tale of 18th century India, when people believed in ' 'chudails' a female
+              ghost in the Indian folklore who invariably has her feet turned backward, and that's the basic plot of the
+              film. The first thing that hits you is the fabulous cinematography, </span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RUN MODAL -->
+
+  <div id="runModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Run </h3>
+          <br>
+          <img src=" run.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">14 May 2020 (Argentina)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Aneesh Chaganty</span></p>
+          <br>
+          <p style="color: #ffc107;">Production Company : <span style="color: white;"> Summit Entertainment; Lionsgate
+              Films; Search Party</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Natalie Qasabian; Sev Ohanian</span></p>
+          <br>
+          <p style="color: #ffc107;">Box Office : <span style="color: white;">$3.4 million </span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Sarah Paulson, Onalee Ames, Sara Sohn,
+              Pat Healy</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;"> Chloe, a teenager, is forbidden from
+              seeing the mail and is kept in isolation. She soon starts suspecting her mother of keeping dark secrets
+              and decides to investigate.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐</span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Army MODAL -->
+
+  <div id="armyModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Army Of The Dead</h3>
+          <br>
+          <img src=" army of the dead.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">14 May 2021 (Spain)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Zack Snyder</span></p>
+          <br>
+          <p style="color: #ffc107;">Production company : <span style="color: white;">The Stone Quarry </span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Deborah Snyder; Wesley Coller; Zack
+              Snyder</span></p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;"> $70–90 million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Dave Bautista, Ella Purnell, Huma
+              Qureshi, Tig Notaro </span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">After a zombie outbreak in Las Vegas,
+              a group of mercenaries takes the ultimate gamble by venturing into the quarantine zone for the greatest
+              heist ever. After a zombie outbreak in Las Vegas, a group of mercenaries takes the ultimate gamble by
+              venturing into the quarantine zone Zack Snyder’s zombies-in-Vegas extravaganza is an exhausting pivot from
+              brilliant to boring, accomplished to shambolic</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐ </span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #Alive MODAL -->
+
+  <div id="aliveModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">#Alive</h3>
+          <br>
+          <img src=" alive.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">24 June 2020 (South Korea)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;">Il Cho</span></p>
+          <br>
+          <p style="color: #ffc107;">Production company : <span style="color: white;">ZIP Cinema; Perspective Pictures
+            </span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Eugene Lee; Saemi Kim</span></p>
+          <br>
+          <p style="color: #ffc107;">Based On : <span style="color: white;"> Alone; by Matt Naylor</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Park Shin‑hye, Yoo Ah‑in, Lee Hyun‑wook,
+              Joo Bo‑Bi </span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">#Alive is a 2020 South Korean zombie
+              film directed by Cho Il-hyung. Starring Yoo Ah-in and Park Shin-hye, it is based on the 2019 script Alone
+              by Matt Naylor, who co-adapted his script with Cho. A laid back gamer is homebound with no food, no
+              weapons, and zombies knocking at the door in this spirited Korean twist on siege movies</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐ </span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Annabelle MODAL -->
+
+  <div id="annabelleModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Annabelle Comes Home</h3>
+          <br>
+          <img src=" annabelle.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">26 June 2019 (Indonesia)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Gary Dauberman</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;">James Wan; Gary Dauberman</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> James Wan; ‎Peter Safran</span></p>
+          <br>
+          <p style="color: #ffc107;">Box Office : <span style="color: white;"> $231.3 million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Vera Farmiga, Madison Iseman, Patrick
+              Wilson, James Wan</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">Judy and her babysitter are left alone
+              in her house after her parents leave to investigate a case. However, an unexpected guest sets Annabelle
+              free, unleashing demonic activity in the house. We can only experience so many screeching fiends and
+              shadow-gliding ghoulies before a certain been-there-screamed-at-that ennui sets in.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐ </span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Ring MODAL -->
+
+  <div id="ringModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">The Ring</h3>
+          <br>
+          <img src=" ring.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">October 6, 2016</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Gore Verbinski</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;"> Hiroshi Takahashi</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Laurie MacDonald, Walter F.
+              Parkes</span></p>
+          <br>
+          <p style="color: #ffc107;">Box Office : <span style="color: white;"> $19.4 million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;"> Naomi Watts, David Dorfman, Ehren
+              Kruger, Daveigh Chase</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">A journalist must investigate a
+              mysterious videotape which seems to cause the death of anyone one week to the day after they view it. Full
+              of suspense and intrigue, The Ring is a subtle but intense thriller. When a newspaper reporter
+              investigates an underground videotape that supposedly kills</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mama MODAL -->
+
+  <div id="mamaModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Mama</h3>
+          <br>
+          <img src=" mama.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">8 February 2013 (India)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Andrés Muschietti</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;"> Andy Muschietti; Barbara Muschietti</span>
+          </p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> J. Miles Dale; ‎Barbara
+              Muschietti‎</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;"> Andy Muschietti; Barbara Muschietti</span>
+          </p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Jessica Chastain, Megan Charpentie,
+              Javier Botet, Nikolaj Coster</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">After their parents' deaths, two young
+              girls are forced to reside in a house that has a dark and ominous presence. Even after getting rescued,
+              the evil forces follow them to their new home. It is a horror ghost story that offers pictorial beauty, an
+              atmosphere throbbing with dread and actors so good that you don’t want anyone to take an ax to them</span>
+          </p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Insidious Chapter 3 MODAL -->
+
+  <div id="insidiousModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Insidious Chapter 3</h3>
+          <br>
+          <img src=" insidious.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">28 May 2015 (Denmark)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;">Leigh Whannell</span></p>
+          <br>
+          <p style="color: #ffc107;">Story By : <span style="color: white;">Leigh Whannell</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Jason Blum; Oren Peli; James Wan‎</span>
+          </p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">$11 Million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Dermot Mulroney, Stefanie Scott, Lin
+              Shaye, Leigh Whannell</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">Quinn, a young girl, reaches out to a
+              powerful psychic to help her contact her recently deceased mother. However, her plan backfires when an
+              evil spirit makes Quinn a host and hurts her physically. The prequel to the successful horror series is
+              helmed by a new director this time around, bringing you a mixed bag of treats, or scares, to be more
+              appropriate</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Possession MODAL -->
+
+  <div id="possessionModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">The Possession</h3>
+          <br>
+          <img src=" possession.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">31 August 2012 (USA)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Ole Bornedal</span></p>
+          <br>
+          <p style="color: #ffc107;">Music By : <span style="color: white;"> Anton Sanko</span></p>
+          <br>
+          <p style="color: #ffc107;">Written By : <span style="color: white;"> Juliet Snowden Stiles White</span></p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">$49.1 Million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;"></span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">During a yard sale, Emily, a young
+              girl, comes across an antique box and asks her father to buy it for her. Soon, she becomes increasingly
+              obsessed with it and exhibits signs of being possessed. The Possession is Jewish Exorcist. It’s gripping
+              but lacks novelty</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hush MODAL -->
+
+  <div id="hushModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">Hush</h3>
+          <br>
+          <img src=" hush.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">8th April 2016 (USA)</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Mike Flanagan</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;"> Trevor Macy; Jason Blum</span></p>
+          <br>
+          <p style="color: #ffc107;">Written By : <span style="color: white;"> Mike Flanagan, Kate Siegel.</span></p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">$10 Million</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Kate Siegel ,John Gallagher, Samantha
+              Sloyan,
+              Michael Trucco </span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">A deaf writer who retreated into the
+              woods to live a solitary life must fight for her life in silence when a masked killer appears in her
+              window. Hush navigates the bloody waters of home invasion thrillers and incisive slashers ... Movie Info.
+              A deaf woman is stalked by a killer in her home.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Death  note MODAL -->
+
+  <div id="deathModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #ffc107;">&times;</button>
+          <h4 class="modal-title" style="color: #ffc107;">Movie Mania</h4>
+        </div>
+        <div class="modal-body" style="background-color: black;">
+
+          <h3 style="color: #ffc107;">IT chapter two</h3>
+          <br>
+          <img src=" it chapter two.jpg" class="img-fluid" alt="..." style="height:260px">
+          <br>
+          <br>
+          <p style="color: #ffc107; ">Release Date : <span style="color: white;">26 August 2019</span></p>
+          <br>
+          <p style="color: #ffc107;">Director : <span style="color: white;"> Andrés Muschietti</span></p>
+          <br>
+          <p style="color: #ffc107;">Produced By : <span style="color: white;">Barbara Muschietti, Dan Lin, Roy
+              Lee</span></p>
+          <br>
+          <p style="color: #ffc107;">Music By : <span style="color: white;"> Benjamin Wallfisch</span></p>
+          <br>
+          <p style="color: #ffc107;">Budget : <span style="color: white;">79 Million USD</span></p>
+          <br>
+          <p style="color: #ffc107;">Main Casting : <span style="color: white;">Jessica Chastain, James McAvoy, Bill
+              Hader, Isaiah Mustafa.</span></p>
+          <br>
+          <p style="color: #ffc107;">Story Overview : <span style="color: white;">After 27 years, the Losers Club receive a call from their friend Mike Hanlon that Pennywise is back. They decide to honour their promise and return to their old town to end the evil clown for good.</span></p>
+        </div>
+        <div class="modal-footer" style="background-color: black; ">
+          <p style="color: #ffc107;"> Average Ratting : <span>⭐⭐⭐</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
